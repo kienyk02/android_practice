@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">AndroidPractice</string>
+    <string name="hello">Hello</string>
+    <string name="call">Call</string>
+    <string name="dial">dial</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">Open</string>
+    <string name="cry_for_a_shadow">Cry for a shadow</string>
+    <string name="avarta">avarta</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="day_mode">Day mode</string>
+    <string name="team_1">Team 1</string>
+    <string name="team_2">Team 2</string>
+    <string name="night_mode">Night mode</string>
+    <string name="droid_cafe">Droid Cafe</string>
+    <string name="droid_desserts">Droid Desserts</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone</string>
+    <string name="note">Note</string>
+</resources>

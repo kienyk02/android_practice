@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/yellow"
+    android:orientation="horizontal"
+    tools:context=".fragment_example.ChoiceFragment">
+
+    <TextView
+        android:id="@+id/txtShow"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Like the article? "
+        android:textAllCaps="true"
+        android:textSize="25sp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdYes"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/yes"
+            android:textSize="25sp" />
+
+        <RadioButton
+            android:id="@+id/rdNo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/no"
+            android:textSize="25sp" />
+    </RadioGroup>
+
+
+</LinearLayout>

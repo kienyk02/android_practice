@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".intent_example.IntentExampleActivity">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/edtUrl"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter URL" />
+
+        <Button
+            android:padding="10dp"
+            android:textAllCaps="false"
+            android:id="@+id/btnOpenWebsite"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@drawable/button_format"
+            android:text="open website"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/edtLocation"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Location" />
+
+        <Button
+            android:padding="10dp"
+            android:textAllCaps="false"
+            android:id="@+id/btnOpenLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@drawable/button_format"
+            android:text="open location"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/edtText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter text" />
+
+        <Button
+            android:padding="10dp"
+            android:textAllCaps="false"
+            android:id="@+id/btnShareText"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@drawable/button_format"
+            android:text="share this text"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

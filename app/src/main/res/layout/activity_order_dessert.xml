@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu_example.OrderDessertActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tbMenuExample"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/blue_Light"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/tbMenuExample">
+
+        <TextView
+            android:id="@+id/txtDessert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/droid_cafe"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="2"
+                android:text="@string/name"
+                android:textSize="18sp" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="7" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="2"
+                android:text="@string/address"
+                android:textSize="18sp" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="7" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="2"
+                android:text="@string/phone"
+                android:textSize="18sp" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="7" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="top"
+                android:text="@string/note"
+                android:textSize="18sp" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="7"
+                android:maxLines="5" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Choose a delivery method"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rd1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Same day messenger service"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/rd2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Next day ground delivery"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/rd3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pick up"
+                android:textSize="18sp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnOpenDatePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button_format"
+            android:padding="10dp"
+            android:text="Select Date" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
