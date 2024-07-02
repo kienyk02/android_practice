@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application
         android:allowBackup="true"
@@ -16,17 +18,44 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".content_provider.ContentProviderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sqlite_example.SqliteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SharedPreferencesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".broadcasts_example.BroadCastsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".search_book_author.SearchBookActivity"
+            android:exported="false" />
+        <activity
+            android:name=".internet_connection.InternetConnectionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExecutorExampleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".recycleview_example.RecycleViewExampleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".navigation_example.NavigationExampleActivity"
+            android:exported="false" />
+        <activity
             android:name=".menu_example.OrderDessertActivity"
             android:exported="false"
-            android:label="@string/droid_cafe"/>
+            android:label="@string/droid_cafe" />
         <activity
             android:name=".menu_example.MenuExampleActivity"
             android:exported="false"
-            android:label="@string/droid_cafe"/>
+            android:label="@string/droid_cafe" />
         <activity
             android:name=".DrawableExampleActivity"
             android:exported="false"
-            android:theme="@style/DrawbleExample"/>
+            android:theme="@style/DrawbleExample" />
         <activity
             android:name=".intent_example.IntentExampleActivity"
             android:exported="false" />

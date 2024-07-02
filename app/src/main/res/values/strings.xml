@@ -20,4 +20,23 @@
     <string name="address">Address</string>
     <string name="phone">Phone</string>
     <string name="note">Note</string>
+    <string name="navigtion">Navigtion</string>
+    <string name="add">Add</string>
+    <string name="recycle_view">Recycle View</string>
+    <string name="excutor_example">Excutor Example</string>
+    <string name="internet_connection">Internet Connection</string>
+    <string name="get">Get</string>
+    <string name="post">Post</string>
+    <string name="internet_connection_example">Internet Connection Example</string>
+    <string name="broadcasts">BroadCasts</string>
+    <string name="send_boardcast">Send boardcast</string>
+    <string name="black">black</string>
+    <string name="blue">blue</string>
+    <string name="red">Red</string>
+    <string name="green">green</string>
+    <string name="count">count</string>
+    <string name="reset">reset</string>
+    <string name="_0">0</string>
+    <string name="update">update</string>
+    <string name="delete">delete</string>
 </resources>

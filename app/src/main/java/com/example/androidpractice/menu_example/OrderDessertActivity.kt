@@ -3,6 +3,7 @@ package com.example.androidpractice.menu_example
 import android.annotation.SuppressLint
 import android.app.DatePickerDialog
 import android.os.Bundle
+import android.view.MenuItem
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -21,6 +22,8 @@ class OrderDessertActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
         setSupportActionBar(binding.tbMenuExample)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setDisplayShowHomeEnabled(true)
 
         val dessert = intent.getSerializableExtra("Dessert") as Dessert
         binding.apply {
@@ -28,6 +31,16 @@ class OrderDessertActivity : AppCompatActivity() {
             btnOpenDatePicker.setOnClickListener {
                 openDatePicker()
             }
+        }
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when(item.itemId){
+            android.R.id.home ->{
+                onBackPressed()
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
         }
     }
 
