@@ -4,13 +4,15 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.androidpractice.broadcasts_example.BroadCastsActivity
-import com.example.androidpractice.content_provider.ContentProviderActivity
+import com.example.androidpractice.content_provider.screen.ContentProviderActivity
 import com.example.androidpractice.databinding.ActivityMainBinding
 import com.example.androidpractice.fragment_example.FragmentExample1Activity
 import com.example.androidpractice.intent_example.IntentExampleActivity
 import com.example.androidpractice.internet_connection.InternetConnectionActivity
 import com.example.androidpractice.menu_example.MenuExampleActivity
+import com.example.androidpractice.muisicApp.screen.HomeMusicActivity
 import com.example.androidpractice.navigation_example.NavigationExampleActivity
+import com.example.androidpractice.notification_example.NotificationActivity
 import com.example.androidpractice.recycleview_example.RecycleViewExampleActivity
 import com.example.androidpractice.search_book_author.SearchBookActivity
 import com.example.androidpractice.sqlite_example.SqliteActivity
@@ -74,6 +76,14 @@ class MainActivity : AppCompatActivity() {
 
             btnContentProvider.setOnClickListener {
                 startActivity(Intent(this@MainActivity, ContentProviderActivity::class.java))
+            }
+
+            btnNotification.setOnClickListener {
+                startActivity(Intent(this@MainActivity, NotificationActivity::class.java))
+            }
+
+            btnMusicApp.setOnClickListener {
+                startActivity(Intent(this@MainActivity, HomeMusicActivity::class.java))
             }
         }
     }

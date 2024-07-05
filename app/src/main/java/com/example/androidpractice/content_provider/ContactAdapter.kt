@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.androidpractice.content_provider.data.model.Contact
 import com.example.androidpractice.databinding.ItemContactBinding
 
 class ContactAdapter(private var list: List<Contact>) :

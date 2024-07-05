@@ -39,4 +39,6 @@
     <string name="_0">0</string>
     <string name="update">update</string>
     <string name="delete">delete</string>
+    <string name="name_song">Name song</string>
+    <string name="author">Author</string>
 </resources>
