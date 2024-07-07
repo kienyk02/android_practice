@@ -82,8 +82,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <service android:name=".muisicApp.ultis.MusicService" />
-        <receiver android:name=".muisicApp.ultis.MusicReceiver"
+        <service android:name=".muisicApp.utils.MusicService" />
+        <receiver android:name=".muisicApp.utils.MusicReceiver"
             android:exported="false">
         </receiver>
     </application>

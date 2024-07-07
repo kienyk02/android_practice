@@ -23,7 +23,7 @@ import com.example.androidpractice.muisicApp.data.repository.SongRepositoryImpl
 import com.example.androidpractice.muisicApp.screen.listSong.adapter.SongAdapter
 import com.example.androidpractice.muisicApp.screen.listSong.presenter.SongContract
 import com.example.androidpractice.muisicApp.screen.listSong.presenter.SongPresenter
-import com.example.androidpractice.muisicApp.ultis.MusicService
+import com.example.androidpractice.muisicApp.utils.MusicService
 
 class HomeMusicActivity : AppCompatActivity(), SongContract.View {
     private val binding: ActivityHomeMusicBinding by lazy {

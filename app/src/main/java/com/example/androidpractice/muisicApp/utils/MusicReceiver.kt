@@ -1,4 +1,4 @@
-package com.example.androidpractice.muisicApp.ultis
+package com.example.androidpractice.muisicApp.utils
 
 import android.content.BroadcastReceiver
 import android.content.Context
