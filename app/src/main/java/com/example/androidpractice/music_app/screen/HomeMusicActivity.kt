@@ -1,4 +1,4 @@
-package com.example.androidpractice.muisicApp.screen
+package com.example.androidpractice.music_app.screen
 
 import android.annotation.SuppressLint
 import android.content.BroadcastReceiver
@@ -17,13 +17,13 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.androidpractice.R
 import com.example.androidpractice.databinding.ActivityHomeMusicBinding
-import com.example.androidpractice.muisicApp.data.dataSource.SongSourceImpl
-import com.example.androidpractice.muisicApp.data.model.Song
-import com.example.androidpractice.muisicApp.data.repository.SongRepositoryImpl
-import com.example.androidpractice.muisicApp.screen.listSong.adapter.SongAdapter
-import com.example.androidpractice.muisicApp.screen.listSong.presenter.SongContract
-import com.example.androidpractice.muisicApp.screen.listSong.presenter.SongPresenter
-import com.example.androidpractice.muisicApp.utils.MusicService
+import com.example.androidpractice.music_app.data.dataSource.SongSourceImpl
+import com.example.androidpractice.music_app.data.model.Song
+import com.example.androidpractice.music_app.data.repository.SongRepositoryImpl
+import com.example.androidpractice.music_app.screen.listSong.adapter.SongAdapter
+import com.example.androidpractice.music_app.screen.listSong.presenter.SongContract
+import com.example.androidpractice.music_app.screen.listSong.presenter.SongPresenter
+import com.example.androidpractice.music_app.utils.MusicService
 
 class HomeMusicActivity : AppCompatActivity(), SongContract.View {
     private val binding: ActivityHomeMusicBinding by lazy {

@@ -1,11 +1,11 @@
-package com.example.androidpractice.muisicApp.utils
+package com.example.androidpractice.music_app.utils
 
 import android.app.Service
 import android.content.Intent
 import android.media.MediaPlayer
 import android.os.Binder
 import android.os.IBinder
-import com.example.androidpractice.muisicApp.data.model.Song
+import com.example.androidpractice.music_app.data.model.Song
 
 
 class MusicService : Service() {

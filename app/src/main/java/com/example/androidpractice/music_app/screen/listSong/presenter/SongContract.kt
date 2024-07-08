@@ -1,6 +1,6 @@
-package com.example.androidpractice.muisicApp.screen.listSong.presenter
+package com.example.androidpractice.music_app.screen.listSong.presenter
 
-import com.example.androidpractice.muisicApp.data.model.Song
+import com.example.androidpractice.music_app.data.model.Song
 
 interface SongContract {
     interface Presenter{

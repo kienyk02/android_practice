@@ -20,7 +20,7 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".muisicApp.screen.HomeMusicActivity"
+            android:name=".music_app.screen.HomeMusicActivity"
             android:exported="false" />
         <activity
             android:name=".notification_example.NotificationActivity"
@@ -82,8 +82,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <service android:name=".muisicApp.utils.MusicService" />
-        <receiver android:name=".muisicApp.utils.MusicReceiver"
+        <service android:name=".music_app.utils.MusicService" />
+        <receiver android:name=".music_app.utils.MusicReceiver"
             android:exported="false">
         </receiver>
     </application>

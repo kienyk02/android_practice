@@ -1,4 +1,4 @@
-package com.example.androidpractice.muisicApp.utils
+package com.example.androidpractice.music_app.utils
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -10,8 +10,8 @@ import android.widget.RemoteViews
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import com.example.androidpractice.R
-import com.example.androidpractice.muisicApp.data.model.Song
-import com.example.androidpractice.muisicApp.screen.HomeMusicActivity
+import com.example.androidpractice.music_app.data.model.Song
+import com.example.androidpractice.music_app.screen.HomeMusicActivity
 
 class NotificationHelper(private val context: Context) {
 

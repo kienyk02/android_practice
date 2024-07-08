@@ -1,9 +1,7 @@
-package com.example.androidpractice.muisicApp.screen.listSong.presenter
+package com.example.androidpractice.music_app.screen.listSong.presenter
 
-import android.util.Log
-import android.widget.Toast
-import com.example.androidpractice.muisicApp.data.model.Song
-import com.example.androidpractice.muisicApp.data.repository.SongRepository
+import com.example.androidpractice.music_app.data.model.Song
+import com.example.androidpractice.music_app.data.repository.SongRepository
 
 class SongPresenter(private val songRepository: SongRepository) : SongContract.Presenter {
     private var view: SongContract.View? = null

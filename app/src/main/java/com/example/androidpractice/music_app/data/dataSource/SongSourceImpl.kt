@@ -1,8 +1,8 @@
-package com.example.androidpractice.muisicApp.data.dataSource
+package com.example.androidpractice.music_app.data.dataSource
 
 import com.example.androidpractice.R
-import com.example.androidpractice.muisicApp.data.model.Song
-import com.example.androidpractice.muisicApp.screen.listSong.presenter.OnResultListener
+import com.example.androidpractice.music_app.data.model.Song
+import com.example.androidpractice.music_app.screen.listSong.presenter.OnResultListener
 
 class SongSourceImpl: SongSource {
     override fun getSongs(listener: OnResultListener<List<Song>>) {

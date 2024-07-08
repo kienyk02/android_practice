@@ -1,11 +1,11 @@
-package com.example.androidpractice.muisicApp.screen.listSong.adapter
+package com.example.androidpractice.music_app.screen.listSong.adapter
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.androidpractice.databinding.ItemSongBinding
-import com.example.androidpractice.muisicApp.data.model.Song
+import com.example.androidpractice.music_app.data.model.Song
 
 class SongAdapter(private var list: List<Song>) : RecyclerView.Adapter<SongAdapter.ViewHolder>() {
     var onItemClick: ((Int) -> Unit)? = null

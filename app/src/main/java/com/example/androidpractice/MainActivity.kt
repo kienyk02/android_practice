@@ -10,7 +10,7 @@ import com.example.androidpractice.fragment_example.FragmentExample1Activity
 import com.example.androidpractice.intent_example.IntentExampleActivity
 import com.example.androidpractice.internet_connection.InternetConnectionActivity
 import com.example.androidpractice.menu_example.MenuExampleActivity
-import com.example.androidpractice.muisicApp.screen.HomeMusicActivity
+import com.example.androidpractice.music_app.screen.HomeMusicActivity
 import com.example.androidpractice.navigation_example.NavigationExampleActivity
 import com.example.androidpractice.notification_example.NotificationActivity
 import com.example.androidpractice.recycleview_example.RecycleViewExampleActivity

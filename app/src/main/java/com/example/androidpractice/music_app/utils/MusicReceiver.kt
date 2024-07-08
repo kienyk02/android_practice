@@ -1,4 +1,4 @@
-package com.example.androidpractice.muisicApp.utils
+package com.example.androidpractice.music_app.utils
 
 import android.content.BroadcastReceiver
 import android.content.Context
